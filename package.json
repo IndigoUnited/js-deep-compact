@@ -1,5 +1,5 @@
 {
-  "name": "node-deep-compact",
+  "name": "deep-compact",
   "version": "0.1.0",
   "description": "Recursively compacts values, removing empty values from your arrays & objects",
   "main": "index.js",
