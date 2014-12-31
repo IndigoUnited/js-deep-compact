@@ -1,0 +1,31 @@
+{
+  "name": "node-deep-compact",
+  "version": "0.1.0",
+  "description": "Recursively compacts values, removing empty values from your arrays & objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "bugs": {
+    "url": "https://github.com/IndigoUnited/node-deep-compact/issues/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IndigoUnited/node-deep-compact.git"
+  },
+  "keywords": [
+    "compact",
+    "deep",
+    "remove",
+    "trim",
+    "value",
+    "object",
+    "array"
+  ],
+  "author": "IndigoUnited <hello@indigounited.com> (http://indigounited.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.1.0"
+  }
+}
