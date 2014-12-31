@@ -31,7 +31,7 @@ deepcompact({
     something: [
         {
             colors: ['red', 'green'],
-            cars: { audi:'nice', vw:'good' }
+            cars: { audi:'nice', vw: 'good' }
         }
     ],
     foo: 'bar'
