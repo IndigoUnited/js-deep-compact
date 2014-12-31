@@ -27,5 +27,8 @@
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "is-plain-object": "^0.1.0"
   }
 }
