@@ -83,7 +83,7 @@ describe('deep-compact', function () {
             original = {
                 something: [
                     {
-                        colors: ['red', 'green', ''],
+                        colors: ['red', ' green ', ''],
                         cars: { audi: 'nice', vw:'good', aston: '' }
                     },
                     undefined,
@@ -107,8 +107,8 @@ describe('deep-compact', function () {
                 {
                     something: [
                         {
-                            colors: ['red', 'green', ''],
-                            cars: { audi: 'nice', vw:'good', aston: '' }
+                            colors: ['red', ' green ', ''],
+                            cars: { audi: 'nice', vw: 'good', aston: '' }
                         },
                         undefined,
                         ''
