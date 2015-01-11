@@ -1,6 +1,6 @@
 {
   "name": "deep-compact",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Recursively compacts collection values (arrays and objects), removing empty values from your arrays & objects",
   "main": "index.js",
   "scripts": {
