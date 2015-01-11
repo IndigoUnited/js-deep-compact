@@ -1,6 +1,6 @@
 # deep-compact [![Build Status](https://travis-ci.org/IndigoUnited/node-deep-compact.svg?branch=master)](https://travis-ci.org/IndigoUnited/node-deep-compact)
 
-Recursively compacts values, removing empty values from your arrays & objects.   
+Recursively compacts collection values (arrays and objects), removing empty values from your arrays & objects.   
 It will also trim and remove empty strings.
 
 
@@ -18,7 +18,7 @@ deepcompact({
     something: [
         {
             colors: ['red', ' green ', ''],
-            cars: { audi: 'nice', vw: 'good', aston: '' }
+            cars: { audi: 'nice', vw: 'good', aston: '  ' }
         },
         undefined,
         ''
@@ -31,13 +31,14 @@ deepcompact({
     something: [
         {
             colors: ['red', 'green'],
-            cars: { audi:'nice', vw:'good' }
+            cars: { audi: 'nice', vw: 'good' }
         }
     ],
     foo: 'bar'
 });
 */
 ```
+
 
 ## Tests
 

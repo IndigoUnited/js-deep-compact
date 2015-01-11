@@ -3,67 +3,32 @@
 'use strict';
 
 var isPlainObject = require('is-plain-object');
+var filter = require('deep-filter');
 
 function compact(value) {
+    return filter(value, notEmpty);
+}
+
+function notEmpty(value, prop, subject) {
+    var key;
+
     if (Array.isArray(value)) {
-        return compactArray(value);
+        return value.length > 0;
     }
 
     if (isPlainObject(value)) {
-        return compactObject(value);
+        for (key in value) {
+            return true;
+        }
+
+        return false;
     }
 
     if (typeof value === 'string') {
-        value = value.trim();
+        value = subject[prop] = value.trim();
     }
 
-    return isPrimitiveEmpty(value) ? null : value;
-}
-
-function compactObject(obj) {
-    var newObj = {};
-    var key;
-    var value;
-    var isEmpty = true;
-
-    for (key in obj) {
-        value = compact(obj[key]);
-
-        if (!isPrimitiveEmpty(value)) {
-            newObj[key] = value;
-            isEmpty = false;
-        }
-    }
-
-    return isEmpty ? null : newObj;
-}
-
-function compactArray(array) {
-    var newArray = [];
-    var isEmpty = true;
-
-    array.forEach(function (value) {
-        value = compact(value);
-
-        if (!isPrimitiveEmpty(value)) {
-            newArray.push(value);
-            isEmpty = false;
-        }
-    });
-
-    return isEmpty ? null : newArray;
-}
-
-function isPrimitiveEmpty(value){
-    if (value == null) {
-        return true;
-    }
-
-    if (typeof value === 'string') {
-        return !value.length;
-    }
-
-    return false;
+    return !!value;
 }
 
 module.exports = compact;
