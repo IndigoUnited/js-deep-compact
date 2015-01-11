@@ -29,6 +29,7 @@
     "mocha": "^2.1.0"
   },
   "dependencies": {
+    "deep-filter": "^0.1.0",
     "is-plain-object": "^0.1.0"
   }
 }
