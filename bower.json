@@ -1,0 +1,33 @@
+{
+  "name": "deep-compact",
+  "version": "0.2.3",
+  "description": "Recursively compacts collection values (arrays and objects), removing empty values from your arrays & objects",
+  "main": "index.umd.js",
+  "homepage": "https://github.com/IndigoUnited/js-deep-compact",
+  "authors": [
+    "IndigoUnited <hello@indigounited.com> (http://indigounited.com)"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "compact",
+    "deep",
+    "remove",
+    "trim",
+    "value",
+    "object",
+    "array"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "index.js"
+  ]
+}

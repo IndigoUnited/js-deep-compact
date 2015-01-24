@@ -1,10 +1,11 @@
 {
   "name": "deep-compact",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Recursively compacts collection values (arrays and objects), removing empty values from your arrays & objects",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha -R spec --bail",
+    "browserify": "browserify -s deep-compact index.js > index.umd.js"
   },
   "bugs": {
     "url": "https://github.com/IndigoUnited/node-deep-compact/issues/"
@@ -25,6 +26,7 @@
   "author": "IndigoUnited <hello@indigounited.com> (http://indigounited.com)",
   "license": "MIT",
   "devDependencies": {
+    "browserify": "^8.1.1",
     "expect.js": "^0.3.1",
     "mocha": "^2.1.0"
   },
