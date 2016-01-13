@@ -4,7 +4,7 @@
   "description": "Recursively compacts collection values (arrays and objects), removing empty values from your arrays & objects",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec --bail",
+    "test": "mocha --bail",
     "browserify": "browserify -s deep-compact index.js > index.umd.js"
   },
   "bugs": {
