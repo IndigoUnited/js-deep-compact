@@ -6,7 +6,7 @@
 [downloads-image]:http://img.shields.io/npm/dm/deep-compact.svg
 [npm-image]:http://img.shields.io/npm/v/deep-compact.svg
 [travis-url]:https://travis-ci.org/IndigoUnited/js-deep-compact
-[travis-image]:http://img.shields.io/travis/IndigoUnited/js-deep-compact.svg
+[travis-image]:http://img.shields.io/travis/IndigoUnited/js-deep-compact/master.svg
 [david-dm-url]:https://david-dm.org/IndigoUnited/js-deep-compact
 [david-dm-image]:https://img.shields.io/david/IndigoUnited/js-deep-compact.svg
 [david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-deep-compact#info=devDependencies
