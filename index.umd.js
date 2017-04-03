@@ -35,6 +35,7 @@ function notEmpty(value, prop, subject) {
 }
 
 module.exports = compact;
+module.exports.notEmpty = notEmpty;
 
 },{"deep-filter":2,"is-plain-object":3}],2:[function(require,module,exports){
 'use strict';
