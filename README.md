@@ -56,6 +56,8 @@ deepcompact({
 */
 ```
 
+Additionally, `deepcompact.isEmpty` is exposed because it might be useful to use directly.
+
 
 ## Tests
 

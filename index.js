@@ -34,3 +34,4 @@ function notEmpty(value, prop, subject) {
 }
 
 module.exports = compact;
+module.exports.notEmpty = notEmpty;
