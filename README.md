@@ -9,7 +9,7 @@
 [travis-image]:http://img.shields.io/travis/IndigoUnited/js-deep-compact/master.svg
 [david-dm-url]:https://david-dm.org/IndigoUnited/js-deep-compact
 [david-dm-image]:https://img.shields.io/david/IndigoUnited/js-deep-compact.svg
-[david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-deep-compact#info=devDependencies
+[david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-deep-compact?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/IndigoUnited/js-deep-compact.svg
 
 Recursively compacts collection values (arrays and objects), removing empty values from your arrays & objects.   
