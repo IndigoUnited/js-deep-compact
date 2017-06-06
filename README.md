@@ -1,6 +1,6 @@
 # deep-compact
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 
 [npm-url]:https://npmjs.org/package/deep-compact
 [downloads-image]:http://img.shields.io/npm/dm/deep-compact.svg
@@ -11,6 +11,8 @@
 [david-dm-image]:https://img.shields.io/david/IndigoUnited/js-deep-compact.svg
 [david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-deep-compact?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/IndigoUnited/js-deep-compact.svg
+[greenkeeper-image]:https://badges.greenkeeper.io/IndigoUnited/js-deep-compact.svg
+[greenkeeper-url]:https://greenkeeper.io/
 
 Recursively compacts collection values (arrays and objects), removing empty values from your arrays & objects.   
 It will also trim and remove empty strings.
