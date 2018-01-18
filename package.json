@@ -28,7 +28,7 @@
   "devDependencies": {
     "browserify": "^14.0.0",
     "expect.js": "^0.3.1",
-    "mocha": "^3.0.2"
+    "mocha": "^5.0.0"
   },
   "dependencies": {
     "deep-filter": "^1.0.0",
